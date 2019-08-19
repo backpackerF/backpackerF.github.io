@@ -9,10 +9,7 @@ var log = document.getElementById("email").value,
 			else {document.getElementById("info").innerHTML = "E-Mail or password is incorrect", el.classList.add("email"), el1.style.color = "red", el1.style.border = "1px solid red", el2.style.border = "0px solid red"};
 }
 
-function mainClick2() {
-window.location.href = "index.html"
-}
-
+function mainClick3() {
 var user = document.forms.form;
 var json = JSON.stringify(user);
 var request = new XMLHttpRequest();
@@ -23,6 +20,8 @@ request.onreadystatechange = function () {
             document.getElementById("output").innerHTML=request.responseText;
 }
 request.send(json);
+}
 
-
-
+function mainClick2() {
+window.location.href = "index.html"
+}
