@@ -138,7 +138,7 @@ body {
 .email{
  color: red;
  font-family: "Tahoma", serif;
- letter-spacing: 1px;
+ letter-spacing: normal;
  height: 38px;
  width: 240px;
  border-width: 0px;
