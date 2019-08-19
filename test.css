@@ -1,13 +1,14 @@
 ﻿html {
-background-image: url(fon1.gif);
+background: url(fon.gif);
 background-position: top center;
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: cover;
 }
 
+
 body {
-  width: 60%;
+  width: 600px;
   display: block;
   margin: auto; 
   margin-top: 200px;
@@ -47,7 +48,7 @@ h1	{
  font-family: "Tahoma", serif;
  letter-spacing: 1px;
  height: 48px;
- width: 85%;
+ width: 504px;
  border-width: 0px;
  border-radius: 5px;
  margin: 28px 5px 0px 40px;
