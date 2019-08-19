@@ -1,0 +1,94 @@
+﻿html {
+background-image: url(fon1.gif);
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+body {
+  width: 600px;
+  margin: 0 auto; 
+  margin-top: 200px;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cccccc;
+  padding: 30px 10px 50px 10px;
+  background-color: white;
+}
+
+h1	{
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  color: #696969;
+}
+
+.email{
+ color: red;
+ font-family: "Tahoma", serif;
+ letter-spacing: 1px;
+ height: 38px;
+ width: 500px;
+ border-width: 0px;
+ border-radius: 5px;
+ margin: 28px 0px 0px 40px;
+ font-size: 16px;
+ padding-left: 15px;
+ padding-top: 12px;
+ background: #FFB6C1 !important;
+ outline: none;
+}
+
+#email, #password{
+ color: black;
+ font-family: "Tahoma", serif;
+ letter-spacing: 1px;
+ height: 48px;
+ width: 500px;
+ border-width: 0px;
+ border-radius: 5px;
+ margin: 28px 5px 0px 40px;
+ font-size: 16px;
+ padding-left: 15px;
+ padding-top: 0px;
+ background: #dcdcdc !important;
+ outline: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#next {
+	cursor: pointer;
+	width: 146px;             
+	height: 33px;    
+	border-width: 0px;
+	border-radius: 50px;
+	display: block;
+	margin: auto;
+	margin-top: 48px;
+	font-size: 16px;
+	text-align: center;
+	background-color: #dc143c;
+	color: white;
+  padding-top: 15px;
+}
+	
+#img {
+  display:block;
+  margin:auto;
+  width: 128px; 
+  border: none; 
+  border-radius: 100%;
+}
+
+h2  {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+  font-weight: 600;
+  color: #696969;
+  padding-top: 20px;
+}
