@@ -97,9 +97,49 @@ h2  {
 }
 
 @media screen and (max-width: 640px) {
-aside {width:98%;}
-article {width:98%;}
-#container {font-size:120%;}
-#razdeli_opisanie {width:95%;}
+body {
+  width: 288px;
+  display: block;
+  margin: auto; 
+  margin-top: 200px;
+  font-family: "Arial", sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #cccccc;
+  padding: 30px 10px 50px 10px;
+  background-color: white;
+}
+
+#email, #password{
+ color: black;
+ font-family: "Tahoma", serif;
+ letter-spacing: 1px;
+ height: 48px;
+ width: 240px;
+ border-width: 0px;
+ border-radius: 5px;
+ margin: 28px 5px 0px 40px;
+ font-size: 16px;
+ padding-left: 15px;
+ padding-top: 0px;
+ background: #dcdcdc !important;
+ outline: none;
+}
+
+.email{
+ color: red;
+ font-family: "Tahoma", serif;
+ letter-spacing: 1px;
+ height: 38px;
+ width: 240px;
+ border-width: 0px;
+ border-radius: 5px;
+ margin: 28px 0px 0px 40px;
+ font-size: 16px;
+ padding-left: 15px;
+ padding-top: 12px;
+ background: #FFB6C1 !important;
+ outline: none;
+}
 }
 
