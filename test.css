@@ -7,7 +7,7 @@ background-size: cover;
 }
 
 body {
-  width: 44%;
+  width: 60%;
   display: block;
   margin: auto; 
   margin-top: 200px;
@@ -47,7 +47,7 @@ h1	{
  font-family: "Tahoma", serif;
  letter-spacing: 1px;
  height: 48px;
- width: 500px;
+ width: 85%;
  border-width: 0px;
  border-radius: 5px;
  margin: 28px 5px 0px 40px;
