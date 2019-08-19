@@ -19,14 +19,14 @@ body {
   background-color: white;
 }
 
-h1	{
+h1 {
   font-size: 28px;
   font-weight: bolder;
   text-align: center;
   color: #696969;
 }
 
-.email{
+.email {
  color: red;
  font-family: "Tahoma", serif;
  letter-spacing: 1px;
@@ -42,7 +42,7 @@ h1	{
  outline: none;
 }
 
-#email, #password{
+#email, #password {
  color: black;
  font-family: "Tahoma", serif;
  letter-spacing: 1px;
@@ -87,7 +87,7 @@ label {
   border-radius: 100%;
 }
 
-h2  {
+h2 {
   font-size: 28px;
   font-weight: bolder;
   text-align: center;
@@ -119,7 +119,7 @@ body {
   background-color: white;
 }
 
-#email, #password{
+#email, #password {
  color: black;
  font-family: "Tahoma", serif;
  letter-spacing: 1px;
@@ -135,7 +135,7 @@ body {
  outline: none;
 }
 
-.email{
+.email {
  color: red;
  font-family: "Tahoma", serif;
  letter-spacing: normal;
