@@ -97,11 +97,19 @@ h2  {
 }
 
 @media screen and (max-width: 640px) {
+html {
+background: url(fon.gif);
+background-position: top center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: auto 568px;
+}
+
 body {
   width: 288px;
   display: block;
   margin: auto; 
-  margin-top: 120px;
+  margin-top: 200px;
   font-family: "Arial", sans-serif;
   font-size: 18px;
   border-radius: 10px;
