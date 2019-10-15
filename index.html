@@ -8,21 +8,340 @@
   <meta content='width' name='MobileOptimized'/>
   <meta content='yes' name='apple-mobile-web-app-capable'/>
     <link rel="stylesheet" href="test.css">
-	 <script src="js.js"></script> 
   </head>
+<header class="header" id="header">
+    <h3>
+      <a class="header_logo"><img src="image/logo.png" class="header_logo_img"></a>
+      <a class="header_about_us">О нас</a>
+      <a class="header_service">Сервис</a>
+      <a class="header_leasing">Лизинг</a>
+      <a class="header_buy">Купить</a>
+      <a class="header_partner">Партнеры</a>
+      <a class="header_contact">Контакты</a>
+      <a class="header_number" id="header_number" style="display:none">+7 (495) 668-81-98</a>
+      <botton class="header_call">Заказать звонок</botton>
+    </h3>
+</header>
   <body>
-    <form name="form" action="test2.html"  method="post" > 
-      <div>
-      <h1>Log In</h1>
-        <label for="email">
-	     	</label>
-      <input type="text" name="email" class="email" id="email"  placeholder="E-Mail">    
-        <label for="password">
-        </label>
-      <input type="password" name="password" id="password" placeholder="Password">
-      <p id="info"></p>
-      <botton value="Login" id="next" onClick="mainClick()" onClick="mainClick3()">Login</button>
+    <form name="form" action=""> 
+      <div class="social">
+        <a href="https://vk.com/"><img src="image/vk.png"></a><p>
+        <a href="https://instagram.com"><img src="image/instagram.png"></a><p>
+        <a href="https://www.youtube.com"><img src="image/yootube.png"></a>
       </div>
+      <div class="title">
+        Каждому купившему автокран
+        <a>спутниковая система слежения с установкой в ПОДАРОК</a>
+      </div>
+      <div class="front_page">
+        <p>Звоните
+         <a class="number">+7 (495) 668-81-98</a> 
+        <p/>
+        <p>Время работы
+          <a class="time_work">пн-пт 08:00 до 18:00</a>
+        </p>
+          <a href="https://mail.ru/" class="front_page_mail">aiv@gruztrak.ru</a>
+      </div>
+      <div>
+      <botton class="more_detailed">ПОДРОБНЕЕ</button>
+      </div>
+      <h2 class="leader">Лидеры в своем деле</h2>
+        <button type="button" class="button_back" id="button_back_leader"><</button>
+        <button type="button" class="button_next" id="button_next_leader">></button>
+      <table id="table_leader">
+      <tr>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+      </tr>
+      </table>
+      <h2 class="cargo_16">Автокраны грузоподъемностью 16 т</h2>
+        <button type="button" class="button_back" id="button_back_cargo_16"><</button>
+        <button type="button" class="button_next" id="button_next_cargo_16">></button>
+      <table id="table_cargo_16">
+      <tr>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+      </tr>
+      </table>
+      <h2 class="cargo_25">Автокраны грузоподъемностью 25 т</h2>
+        <button type="button" class="button_back" id="button_back_cargo_25"><</button>
+        <button type="button" class="button_next" id="button_next_cargo_25">></button>
+      <table id="table_cargo_25">
+      <tr>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+      </tr>
+      </table>
+       <h2 class="cargo_35">Автокраны грузоподъемностью 35 т</h2>
+      <table>
+      <tr>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+      </tr>
+      </table>
+      <h2 class="cargo_40">Автокраны грузоподъемностью 40т</h2>
+      <table>
+      <tr>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+          <div class="product">
+            <img src="image/truck.png" class=image>
+            <p class="product_name">Автокран КС-45717-2</p>
+            <p>Шасси УРАЛ-4320 Next</p>
+            <p>Грузоподъемность, т 25</p>
+            <p>Высота подъема, макс, м 21,4 (29,9)</p>
+            <p>Вылет, макс, м 10,0 (28,0)</p>
+            <p class="price">7 160 000 &#8381</p>
+            <botton class="product_more">ПОДРОБНЕЕ</botton>
+            <botton class="product_buy">КУПИТЬ</botton>
+          </div>
+        </td>
+        <td>
+      </tr>
+    </table>
+
 	  </form>
+  <script src="js.js"></script> 
   </body>
+
 </html>
+
+

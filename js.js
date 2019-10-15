@@ -1,27 +1,39 @@
-function mainClick() {
-var log = document.getElementById("email").value,
-    pas = document.getElementById("password").value,
-    el = document.getElementById("info");
-    el1 = document.getElementById("email");
-    el2 = document.getElementById("password");
-    if ((log == "user@example.com" || "User@example.com") && (pas == "mercdev")) {window.location.href = "test2.html"}
-	else  if (log == "user@example.com") {document.getElementById("info").innerHTML = "E-Mail or password is incorrect", el.classList.add("email"), el2.style.border = "1px solid red", el1.style.border = "0px solid red", el1.style.color = "black"}
-			else {document.getElementById("info").innerHTML = "E-Mail or password is incorrect", el.classList.add("email"), el1.style.color = "red", el1.style.border = "1px solid red", el2.style.border = "0px solid red"};
+"use strict"
+window.onscroll = function() {myFunction()};
+
+let header = document.getElementById("header");
+let sticky = header.offsetTop+450;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    header.classList.add("sticky");
+    document.getElementById("header_number").style.display="";
+  } else {
+    header.classList.remove("sticky");
+    document.getElementById("header_number").style.display="none";
+  }
 }
 
-function mainClick3() {
-var user = document.forms.form;
-var json = JSON.stringify(user);
-var request = new XMLHttpRequest();
-request.open("POST", "https://us-central1-mercdev-academy.cloudfunctions.net/login");
-request.setRequestHeader('Content-type', 'application/json; charset=utf-8');
-request.onreadystatechange = function () {
-        if (request.readyState == 4 && request.status == 200)
-            document.getElementById("output").innerHTML=request.responseText;
-}
-request.send(json);
+button_next_leader.onclick = function () {
+	document.getElementById("table_leader").scrollLeft += 50;
+};
+
+button_back_leader.onclick = function () {
+	document.getElementById("table_leader").scrollLeft -= 50;
 }
 
-function mainClick2() {
-window.location.href = "index.html"
+button_next_cargo_16.onclick = function () {
+	document.getElementById("table_cargo_16").scrollLeft += 50;
+};
+
+button_back_cargo_16.onclick = function () {
+	document.getElementById("table_leader_cargo_16").scrollLeft -= 50;
+}
+
+button_next_cargo_25.onclick = function () {
+	document.getElementById("table_cargo_25").scrollLeft += 50;
+};
+
+button_back_cargo_25.onclick = function () {
+	document.getElementById("table_leader_cargo_25").scrollLeft -= 50;
 }
